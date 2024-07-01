@@ -351,8 +351,10 @@
 }
 
 .footer__columns {
+  position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 .footer__column {
@@ -374,6 +376,8 @@
 }
 
 .footer__logo {
+  position: absolute;
+  left: 0;
   margin-right: auto;
   width: 58px;
   height: 80px;
