@@ -363,14 +363,13 @@
 }
 
 .footer__column_content_hours {
-  margin-right: 40px;
   margin-left: auto;
   display: flex;
   flex-direction: column;
 }
 
 .footer__column_content_social {
-  margin-left: 40px;
+  margin-left: 80px;
   display: flex;
   flex-direction: column;
 }
