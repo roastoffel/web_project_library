@@ -363,16 +363,15 @@
 }
 
 .footer__column_content_hours {
-  margin-right: 80px;
+  margin: 0 80px 0 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .footer__column_content_social {
+  margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .footer__logo {
@@ -384,7 +383,8 @@
 }
 
 .footer__column-heading {
-  margin: 0;
+  margin-bottom: 20;
+  margin-top: 0;
 }
 
 .footer__list {
@@ -402,11 +402,14 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
-  padding-right: 10px;
+  height: 16px;
 }
 
 .footer__copyright {
