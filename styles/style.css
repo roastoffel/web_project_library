@@ -319,11 +319,13 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Adicione estilos */
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
-  /* Adicione estilos */
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -345,6 +347,7 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
