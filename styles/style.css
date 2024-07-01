@@ -248,31 +248,30 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  position: absolute;
   bottom: 18px;
   right: 216px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .person_name_mitchell {
-  position: absolute;
   left: 142px;
   bottom: 82px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
