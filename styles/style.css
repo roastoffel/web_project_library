@@ -254,19 +254,27 @@
 }
 
 .person_name_burbidge {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  position: absolute;
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  position: absolute;
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  position: absolute;
+  left: 142px;
+  bottom: 82px;
 }
 
 .person_name_tarter {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  position: absolute;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
