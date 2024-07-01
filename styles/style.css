@@ -248,7 +248,6 @@
 }
 
 .person_name_feynman {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_burbidge {
@@ -268,11 +267,11 @@
 }
 
 .person__image {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .person__image_size_l {
-  /* width: 140px; */
+  width: 140px;
 }
 
 .person__image_size_m {
@@ -284,7 +283,7 @@
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0;
 }
