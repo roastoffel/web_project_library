@@ -407,6 +407,10 @@
   column-gap: 10px;
 }
 
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   width: 16px;
   height: 16px;
