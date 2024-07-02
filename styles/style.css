@@ -400,11 +400,11 @@
 }
 
 .footer__column-link {
+  color: #fff;
   text-decoration: none;
   display: flex;
   align-items: center;
   column-gap: 10px;
-  color: #fff;
 }
 
 .footer__column-link:hover {
